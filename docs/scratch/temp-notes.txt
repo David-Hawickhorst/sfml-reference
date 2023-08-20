@@ -1,0 +1,75 @@
+spawn:
+
+shape_.getOrigin(): (50, 25)
+shape_.getPosition(): (350, 275)
+Rotation: 0
+
+// first left move
+shape_.getOrigin(): (50, 25)
+shape_.getPosition(): (345, 275)
+Rotation: 0
+
+// second left move
+shape_.getOrigin(): (50, 25)
+shape_.getPosition(): (340, 275)
+Rotation: 90
+
+// third left move
+shape_.getOrigin(): (50, 25)
+shape_.getPosition(): (335, 275)
+Rotation: 90
+
+// up
+shape_.getOrigin(): (50, 25)
+shape_.getPosition(): (335, 270)
+Rotation: 90
+
+// up
+shape_.getOrigin(): (50, 25)
+shape_.getPosition(): (335, 265)
+Rotation: 180
+
+
+////////////////////////////////////////////////////////////////////
+//Fix rotation print bug
+////////////////////////////////////////////////////////////////////
+
+shape_.getOrigin(): (50, 25)
+shape_.getPosition(): (350, 275)
+Rotation: 0
+
+shape_.getOrigin(): (50, 25)
+shape_.getPosition(): (345, 275)
+Rotation: 90
+
+shape_.getOrigin(): (50, 25)
+shape_.getPosition(): (345, 270)
+Rotation: 180
+
+shape_.getOrigin(): (50, 25)
+shape_.getPosition(): (345, 265)
+Rotation: 180
+
+shape_.getOrigin(): (50, 25)
+shape_.getPosition(): (345, 270)
+Rotation: 0
+
+shape_.getOrigin(): (50, 25)
+shape_.getPosition(): (350, 270)
+Rotation: 270
+
+shape_.getOrigin(): (50, 25)
+shape_.getPosition(): (345, 270)
+Rotation: 90
+
+shape_.getOrigin(): (50, 25)
+shape_.getPosition(): (340, 270)
+Rotation: 90
+
+shape_.getOrigin(): (50, 25)
+shape_.getPosition(): (335, 270)
+Rotation: 90
+
+shape_.getOrigin(): (50, 25)
+shape_.getPosition(): (330, 270)
+Rotation: 90

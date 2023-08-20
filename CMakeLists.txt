@@ -10,10 +10,17 @@ add_compile_options(-Wall -Wextra -pedantic)
 # create a target that is an executable called "sfml_examples" and "main.cpp" (and potentially other files)
 # will be what are compiled into the executable
 add_executable(sfml_examples main.cpp
-        drawing/DrawableObject.h
-        drawing/Player.cpp
-        drawing/Renderer.h
-        drawing/Player.h)
+        player/Player.cpp
+        player/Player.h
+        utils/windowHelpers/WindowHelpers.cpp
+        utils/windowHelpers/WindowHelpers.h
+        bullet/Bullet.cpp
+        bullet/Bullet.h
+        game/Game.cpp
+        game/Game.h
+        entities/EntityManager.h
+        entities/Entity.h
+)
 
 # this is how to locate the 3rd party package from your system
 find_package(SFML COMPONENTS graphics window system REQUIRED)
